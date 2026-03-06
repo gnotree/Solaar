@@ -43,6 +43,9 @@ For more information see
 
 Up-to-date prebuilt packages are available for some Linux distros
 (e.g., Fedora) in their standard repositories.
+For RHEL-family distributions (RHEL, CentOS Stream, Rocky Linux, AlmaLinux),
+the package may not be available in base repositories, so use
+[manual installation instructions][manual installation].
 If a recent version of Solaar is not
 available from the standard repositories for your distribution, you can try
 one of these packages:
@@ -66,3 +69,4 @@ but may be several versions behind the current version:
 [ubuntu universe repository]: http://packages.ubuntu.com/search?keywords=solaar&searchon=names&suite=all&section=all
 [nix flake]: https://github.com/Svenum/Solaar-Flake
 [debian]: https://packages.debian.org/search?keywords=solaar&searchon=names&suite=all&section=all
+[manual installation]: https://pwr-solaar.github.io/Solaar/installation
